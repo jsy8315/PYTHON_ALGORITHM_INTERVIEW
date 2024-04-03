@@ -1,5 +1,8 @@
-a = [1, 2, 3, 4, 5, 6, 7, 8]
+import sys
+import collections
 
-print(enumerate(a))
+a = [1, 2,3, 4, 5, 5, 5, 6, 6]
+b = collections.Counter(a)
+print(b)
 
-print(list(enumerate(a)))
+print(b.most_common(2))
