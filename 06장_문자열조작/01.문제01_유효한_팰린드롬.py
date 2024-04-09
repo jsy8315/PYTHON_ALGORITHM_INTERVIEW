@@ -1,3 +1,5 @@
+#01 리스트로 변환
+
 import sys
 
 def isPalindrome(s: str) -> bool:
